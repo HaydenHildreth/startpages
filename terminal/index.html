@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>sankari@windows > newtab</title>
+
+  <style>
+    html {
+      align-items: center;
+      background-color: #f7eee4;
+      color: #c5c8c6;
+      display: flex;
+      font: 22px/1 "Inconsolata", monospace;
+      height: 100%;
+      justify-content: center;
+    }
+
+    body {
+      background-color: #1d1f21;
+      border-radius: 2px;
+      box-shadow: 1px 1px 6px #1d1f2187;
+      color: #c5c8c6;
+      display: flex;
+      flex-direction: column;
+      min-height: 30ch;
+      min-width: 50vw;
+      padding: 2em;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    p span {
+      color: #b5bd68;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+      font-weight: bold;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      column-gap: 2em;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding: 1em 0;
+    }
+
+    ul:nth-child(1n) li:first-child {
+      color: #a54242;
+    }
+
+    ul:nth-child(2n) li:first-child {
+      color: #de935f;
+    }
+    
+    ul:nth-child(3n) li:first-child {
+      color: #f0c674;
+    }
+    
+    ul:nth-child(4n) li:first-child {
+      color: #8c9440;
+    }
+
+    ul:nth-child(5n) li:first-child {
+      color: #85678f;
+    }
+
+    li:first-child {
+      font-weight: bold;
+    }
+
+    li:last-child {
+      margin: 0 0 1em;
+    }
+
+    p #cursor {
+      background-color: #b5bd68;
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink {
+      0% { opacity: 0; }
+      49% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <p><span>sankari@windows > </span>newtab</p>
+
+  <nav>
+    <ul>
+      <li>media</li>
+      <li><a href="https://hulu.com/" target="_blank">hulu</a></li>
+      <li><a href="https://netflix.com/" target="_blank">netflix</a></li>
+      <li><a href="https://www.eluniversal.com.mx/" target="_blank">eluniversal</a></li>
+    </ul>
+
+    <ul>
+      <li>programming</li>
+      <li><a href="https://github.com/" target="_blank">github</a></li>
+      <li><a href="https://stackoverflow.com/" target="_blank">stack overflow</a></li>
+    </ul>
+
+    <ul>
+      <li>social</li>
+      <li><a href="https://reddit.com" target="_blank">reddit</a></li>
+      <li><a href="https://youtube.com/" target="_blank">youtube</a></li>
+    </ul>
+
+    <ul>
+      <li>other</li>
+      <li><a href="https://sso.bgsu.edu/cas/login?service=https%3A%2F%2Fbgsu.instructure.com%2Flogin%2Fcas" target="_blank">canvas</a></li>
+      <li><a href="https://pirateproxy.wtf/" target="_blank">tpb</a></li>
+    </ul>
+  </nav>
+
+  <p><span>sankari@windows > </span> <span id="cursor">_</span></p>
+</body>
+</html>
