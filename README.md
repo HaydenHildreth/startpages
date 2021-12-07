@@ -6,3 +6,7 @@ It is simply the default page loaded upon your browsers start, but you can custo
 
 # how to use?
 Point the webpage to your startpage in your browser (i.e. Chrome, FF, etc.)
+
+# examples and screenshots
+Terminal, is supposed to be a bash (linux) terminal. It also uses the [Nord color scheme](https://www.nordtheme.com/) (Nord Aurora).
+
