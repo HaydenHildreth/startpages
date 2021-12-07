@@ -8,5 +8,6 @@ It is simply the default page loaded upon your browsers start, but you can custo
 Point the webpage to your startpage in your browser (i.e. Chrome, FF, etc.)
 
 # examples and screenshots
-Terminal, is supposed to be a bash (linux) terminal. It also uses the [Nord color scheme](https://www.nordtheme.com/) (Nord Aurora).
+Terminal, is supposed to be a windows (PowerShell) terminal. It also uses the [Nord color scheme](https://www.nordtheme.com/) (Nord Aurora).
 
+![Terminal screenshot](https://raw.githubusercontent.com/HaydenHildreth/startpages/main/screenshots/terminal_github.png?token=AIZARGKGOCKBGACAY7XWPLDBV525M)
