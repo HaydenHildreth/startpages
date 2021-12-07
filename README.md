@@ -10,4 +10,4 @@ Point the webpage to your startpage in your browser (i.e. Chrome, FF, etc.)
 # examples and screenshots
 Terminal, is supposed to be a windows (PowerShell) terminal. It also uses the [Nord color scheme](https://www.nordtheme.com/) (Nord Aurora).
 
-![Terminal screenshot](https://raw.githubusercontent.com/HaydenHildreth/startpages/main/screenshots/terminal_github.png?token=AIZARGJZH2ROX5OJ4L52CD3BV54N4)
+![Terminal screenshot](https://github.com/HaydenHildreth/startpages/blob/main/screenshots/terminal_github.png)
